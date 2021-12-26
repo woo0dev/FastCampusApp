@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2090E5427787A9E0015506B /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2090E5327787A9D0015506B /* Quote.swift */; };
 		E229CA0B2778666800018300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229CA0A2778666800018300 /* AppDelegate.swift */; };
 		E229CA0D2778666800018300 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229CA0C2778666800018300 /* SceneDelegate.swift */; };
 		E229CA0F2778666800018300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E229CA0E2778666800018300 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2090E5327787A9D0015506B /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		E229CA072778666800018300 /* QuotesGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E229CA0A2778666800018300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E229CA0C2778666800018300 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				E229CA132778667100018300 /* Assets.xcassets */,
 				E229CA152778667100018300 /* LaunchScreen.storyboard */,
 				E229CA182778667100018300 /* Info.plist */,
+				E2090E5327787A9D0015506B /* Quote.swift */,
 			);
 			name = QuotesGeneragor;
 			path = QuotesGenerator;
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2090E5427787A9E0015506B /* Quote.swift in Sources */,
 				E229CA0F2778666800018300 /* ViewController.swift in Sources */,
 				E229CA0B2778666800018300 /* AppDelegate.swift in Sources */,
 				E229CA0D2778666800018300 /* SceneDelegate.swift in Sources */,
