@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E229CA072778666800018300 /* QuotesGeneragor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesGeneragor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E229CA072778666800018300 /* QuotesGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E229CA0A2778666800018300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E229CA0C2778666800018300 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E229CA0E2778666800018300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		E229CA082778666800018300 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E229CA072778666800018300 /* QuotesGeneragor.app */,
+				E229CA072778666800018300 /* QuotesGenerator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,15 +64,16 @@
 				E229CA152778667100018300 /* LaunchScreen.storyboard */,
 				E229CA182778667100018300 /* Info.plist */,
 			);
-			path = QuotesGeneragor;
+			name = QuotesGeneragor;
+			path = QuotesGenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E229CA062778666800018300 /* QuotesGeneragor */ = {
+		E229CA062778666800018300 /* QuotesGenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E229CA1B2778667100018300 /* Build configuration list for PBXNativeTarget "QuotesGeneragor" */;
+			buildConfigurationList = E229CA1B2778667100018300 /* Build configuration list for PBXNativeTarget "QuotesGenerator" */;
 			buildPhases = (
 				E229CA032778666800018300 /* Sources */,
 				E229CA042778666800018300 /* Frameworks */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = QuotesGeneragor;
+			name = QuotesGenerator;
 			productName = QuotesGeneragor;
-			productReference = E229CA072778666800018300 /* QuotesGeneragor.app */;
+			productReference = E229CA072778666800018300 /* QuotesGenerator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E229CA022778666800018300 /* Build configuration list for PBXProject "QuotesGeneragor" */;
+			buildConfigurationList = E229CA022778666800018300 /* Build configuration list for PBXProject "QuotesGenerator" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E229CA062778666800018300 /* QuotesGeneragor */,
+				E229CA062778666800018300 /* QuotesGenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -341,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E229CA022778666800018300 /* Build configuration list for PBXProject "QuotesGeneragor" */ = {
+		E229CA022778666800018300 /* Build configuration list for PBXProject "QuotesGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E229CA192778667100018300 /* Debug */,
@@ -350,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E229CA1B2778667100018300 /* Build configuration list for PBXNativeTarget "QuotesGeneragor" */ = {
+		E229CA1B2778667100018300 /* Build configuration list for PBXNativeTarget "QuotesGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E229CA1C2778667100018300 /* Debug */,
