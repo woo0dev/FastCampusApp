@@ -47,6 +47,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapDotButton(_ sender: UIButton) {
+        if self.displayNumber.count < 8, !self.displayNumber.contains(".") {
+            self.displayNumber += self.displayNumber.isEmpty ? "0." : "."
+            self.numberOutputLabel.text = self.displayNumber
+        }
     }
     
     @IBAction func tapDivideButton(_ sender: UIButton) {

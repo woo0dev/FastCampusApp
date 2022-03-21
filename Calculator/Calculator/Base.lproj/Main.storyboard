@@ -339,7 +339,6 @@
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
                                                             <action selector="tapDotButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wyj-do-V03"/>
-                                                            <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QW1-bI-s8X"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vma-oh-MMs" customClass="RoundButton" customModule="Calculator" customModuleProvider="target">
