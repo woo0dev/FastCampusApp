@@ -233,7 +233,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5d-ip-a8x">
-                                <rect key="frame" x="151.66666666666666" y="517.66666666666663" width="87" height="36"/>
+                                <rect key="frame" x="151.66666666666666" y="573.33333333333337" width="87" height="36"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="로그아웃">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
@@ -245,6 +245,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6Y-Yl-Cyf">
                                 <rect key="frame" x="134.33333333333334" y="462" width="121.66666666666666" height="35.666666666666686"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="비밀번호 변경">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
@@ -253,14 +254,27 @@
                                     <action selector="resetPasswordButtonTapped:" destination="VRi-Xr-HXb" eventType="touchUpInside" id="Mdw-cX-ulj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCe-GR-MSv">
+                                <rect key="frame" x="142" y="517.66666666666663" width="106.33333333333331" height="35.666666666666629"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닉네임 변경">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="profileUpdateButtonTapped:" destination="VRi-Xr-HXb" eventType="touchUpInside" id="yQT-2X-2Uw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fzL-87-qXy"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="e5d-ip-a8x" firstAttribute="top" secondItem="LCe-GR-MSv" secondAttribute="bottom" constant="20" id="2su-8r-8pu"/>
                             <constraint firstItem="e5d-ip-a8x" firstAttribute="centerX" secondItem="fzL-87-qXy" secondAttribute="centerX" id="CWa-5A-5bQ"/>
+                            <constraint firstItem="LCe-GR-MSv" firstAttribute="centerX" secondItem="fzL-87-qXy" secondAttribute="centerX" id="GM7-n7-N3o"/>
+                            <constraint firstItem="LCe-GR-MSv" firstAttribute="top" secondItem="y6Y-Yl-Cyf" secondAttribute="bottom" constant="20" id="d6S-lo-Qjp"/>
                             <constraint firstItem="r5J-Xd-CfE" firstAttribute="centerX" secondItem="fzL-87-qXy" secondAttribute="centerX" id="l2B-Lf-gXb"/>
                             <constraint firstItem="r5J-Xd-CfE" firstAttribute="centerY" secondItem="fzL-87-qXy" secondAttribute="centerY" id="pDh-gn-Dyp"/>
-                            <constraint firstItem="e5d-ip-a8x" firstAttribute="top" secondItem="y6Y-Yl-Cyf" secondAttribute="bottom" constant="20" id="qKi-Pl-790"/>
                             <constraint firstItem="y6Y-Yl-Cyf" firstAttribute="centerX" secondItem="fzL-87-qXy" secondAttribute="centerX" id="r5i-uh-Ddy"/>
                             <constraint firstItem="y6Y-Yl-Cyf" firstAttribute="top" secondItem="r5J-Xd-CfE" secondAttribute="bottom" constant="20" id="slQ-Qe-hcX"/>
                         </constraints>
