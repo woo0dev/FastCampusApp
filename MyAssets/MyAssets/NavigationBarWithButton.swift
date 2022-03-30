@@ -42,8 +42,7 @@ struct NavigationBarWithButton: ViewModifier {
 }
 
 extension View {
-    func navigationBarWithButtonStyle(_ title: String) -> some
-    View {
+    func navigationBarWithButtonStyle(_ title: String) -> some View {
         return self.modifier(NavigationBarWithButton(title: title))
     }
 }
