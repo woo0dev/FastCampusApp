@@ -28,7 +28,7 @@ struct AssetMenuButtonStyle: ButtonStyle {
 
 struct AssetMenuButtonStyle_Previews: PreviewProvider {
     static var previews: some View {
-        HStack(spacing: 24) {
+        HStack {
             Button("") {
                 print("")
             }
