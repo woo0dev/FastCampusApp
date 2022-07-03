@@ -15,3 +15,5 @@ FastCampus 강의를 들으면서 만든 앱들을 관리하는 Repository
 GitHub 클론 앱
 7. Brewery  
 맥주 소개 API를 불러오는 앱
+8. CreditCardList  
+신용카드 추천 앱
