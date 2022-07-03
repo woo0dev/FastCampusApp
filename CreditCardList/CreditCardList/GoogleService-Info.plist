@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>292282581112-h0nudqj5sbj59ai4b9i99b0ti1k2f5fs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.292282581112-h0nudqj5sbj59ai4b9i99b0ti1k2f5fs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCTNx8B61Cll-TnhJCOMV8GV94KpBvOogI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>292282581112</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.woo0.Hatchling.CreditCardList</string>
+	<key>PROJECT_ID</key>
+	<string>creditcardlist-d4409</string>
+	<key>STORAGE_BUCKET</key>
+	<string>creditcardlist-d4409.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:292282581112:ios:b2aff7a15fa359b89a6d8d</string>
+	<key>DATABASE_URL</key>
+	<string>https://creditcardlist-d4409-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>

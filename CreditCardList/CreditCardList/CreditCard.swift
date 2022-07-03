@@ -8,6 +8,7 @@
 import Foundation
 
 struct CreditCard: Codable {
+    let cardImageURL: String
     let id: Int
     let rank: Int
     let name: String

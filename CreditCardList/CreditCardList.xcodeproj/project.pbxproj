@@ -7,19 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E262BE7A2871C75300F437C8 /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = E262BE792871C75300F437C8 /* money.json */; };
+		E262BE7F2871CCFA00F437C8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E262BE7E2871CCFA00F437C8 /* FirebaseDatabase */; };
+		E262BE812871CCFA00F437C8 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E262BE802871CCFA00F437C8 /* FirebaseDatabaseSwift */; };
+		E262BE832871D1C200F437C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E262BE822871D1C200F437C8 /* GoogleService-Info.plist */; };
+		E262BE862871D97800F437C8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E262BE852871D97800F437C8 /* FirebaseDatabase */; };
+		E262BE882871D97800F437C8 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E262BE872871D97800F437C8 /* FirebaseDatabaseSwift */; };
+		E262BE8A2871D97800F437C8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E262BE892871D97800F437C8 /* FirebaseFirestore */; };
+		E262BE8C2871D97800F437C8 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E262BE8B2871D97800F437C8 /* FirebaseFirestoreCombine-Community */; };
+		E262BE8E2871D97800F437C8 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E262BE8D2871D97800F437C8 /* FirebaseFirestoreSwift */; };
+		E262BE902871DAB000F437C8 /* CreditCardDummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262BE8F2871DAB000F437C8 /* CreditCardDummy.swift */; };
 		E27022242871B9C800CA42D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27022232871B9C800CA42D1 /* AppDelegate.swift */; };
 		E27022262871B9C800CA42D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27022252871B9C800CA42D1 /* SceneDelegate.swift */; };
 		E270222B2871B9C800CA42D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27022292871B9C800CA42D1 /* Main.storyboard */; };
 		E270222D2871B9C900CA42D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E270222C2871B9C900CA42D1 /* Assets.xcassets */; };
 		E27022302871B9C900CA42D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E270222E2871B9C900CA42D1 /* LaunchScreen.storyboard */; };
 		E27022382871B9E700CA42D1 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27022372871B9E700CA42D1 /* CardListViewController.swift */; };
-		E270223A2871BAA700CA42D1 /* credit-card-list.json in Resources */ = {isa = PBXBuildFile; fileRef = E27022392871BAA700CA42D1 /* credit-card-list.json */; };
 		E270223C2871BAEB00CA42D1 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270223B2871BAEB00CA42D1 /* CreditCard.swift */; };
 		E270223F2871BC3E00CA42D1 /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270223D2871BC3E00CA42D1 /* CardListCell.swift */; };
 		E27022402871BC3E00CA42D1 /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E270223E2871BC3E00CA42D1 /* CardListCell.xib */; };
+		E27022432871C1B400CA42D1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E27022422871C1B400CA42D1 /* Kingfisher */; };
+		E27022452871C2CD00CA42D1 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27022442871C2CD00CA42D1 /* CardDetailViewController.swift */; };
+		E27022482871C55D00CA42D1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E27022472871C55D00CA42D1 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E262BE792871C75300F437C8 /* money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
+		E262BE822871D1C200F437C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E262BE8F2871DAB000F437C8 /* CreditCardDummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardDummy.swift; sourceTree = "<group>"; };
 		E27022202871B9C800CA42D1 /* CreditCardList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27022232871B9C800CA42D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E27022252871B9C800CA42D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +43,10 @@
 		E270222F2871B9C900CA42D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27022312871B9C900CA42D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E27022372871B9E700CA42D1 /* CardListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
-		E27022392871BAA700CA42D1 /* credit-card-list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "credit-card-list.json"; sourceTree = "<group>"; };
 		E270223B2871BAEB00CA42D1 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		E270223D2871BC3E00CA42D1 /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
 		E270223E2871BC3E00CA42D1 /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		E27022442871C2CD00CA42D1 /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +54,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E262BE882871D97800F437C8 /* FirebaseDatabaseSwift in Frameworks */,
+				E262BE8C2871D97800F437C8 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				E262BE862871D97800F437C8 /* FirebaseDatabase in Frameworks */,
+				E262BE812871CCFA00F437C8 /* FirebaseDatabaseSwift in Frameworks */,
+				E262BE7F2871CCFA00F437C8 /* FirebaseDatabase in Frameworks */,
+				E27022432871C1B400CA42D1 /* Kingfisher in Frameworks */,
+				E27022482871C55D00CA42D1 /* Lottie in Frameworks */,
+				E262BE8A2871D97800F437C8 /* FirebaseFirestore in Frameworks */,
+				E262BE8E2871D97800F437C8 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,13 +92,16 @@
 				E27022252871B9C800CA42D1 /* SceneDelegate.swift */,
 				E27022292871B9C800CA42D1 /* Main.storyboard */,
 				E270222C2871B9C900CA42D1 /* Assets.xcassets */,
-				E27022392871BAA700CA42D1 /* credit-card-list.json */,
+				E262BE792871C75300F437C8 /* money.json */,
+				E262BE8F2871DAB000F437C8 /* CreditCardDummy.swift */,
 				E270222E2871B9C900CA42D1 /* LaunchScreen.storyboard */,
 				E27022312871B9C900CA42D1 /* Info.plist */,
 				E27022372871B9E700CA42D1 /* CardListViewController.swift */,
 				E270223B2871BAEB00CA42D1 /* CreditCard.swift */,
 				E270223D2871BC3E00CA42D1 /* CardListCell.swift */,
 				E270223E2871BC3E00CA42D1 /* CardListCell.xib */,
+				E27022442871C2CD00CA42D1 /* CardDetailViewController.swift */,
+				E262BE822871D1C200F437C8 /* GoogleService-Info.plist */,
 			);
 			path = CreditCardList;
 			sourceTree = "<group>";
@@ -95,6 +122,17 @@
 			dependencies = (
 			);
 			name = CreditCardList;
+			packageProductDependencies = (
+				E27022422871C1B400CA42D1 /* Kingfisher */,
+				E27022472871C55D00CA42D1 /* Lottie */,
+				E262BE7E2871CCFA00F437C8 /* FirebaseDatabase */,
+				E262BE802871CCFA00F437C8 /* FirebaseDatabaseSwift */,
+				E262BE852871D97800F437C8 /* FirebaseDatabase */,
+				E262BE872871D97800F437C8 /* FirebaseDatabaseSwift */,
+				E262BE892871D97800F437C8 /* FirebaseFirestore */,
+				E262BE8B2871D97800F437C8 /* FirebaseFirestoreCombine-Community */,
+				E262BE8D2871D97800F437C8 /* FirebaseFirestoreSwift */,
+			);
 			productName = CreditCardList;
 			productReference = E27022202871B9C800CA42D1 /* CreditCardList.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +161,12 @@
 				Base,
 			);
 			mainGroup = E27022172871B9C700CA42D1;
+			packageReferences = (
+				E27022412871C1B400CA42D1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				E27022462871C55D00CA42D1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E262BE842871D97800F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = E27022212871B9C800CA42D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,11 +181,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E270223A2871BAA700CA42D1 /* credit-card-list.json in Resources */,
 				E27022302871B9C900CA42D1 /* LaunchScreen.storyboard in Resources */,
+				E262BE7A2871C75300F437C8 /* money.json in Resources */,
 				E270222D2871B9C900CA42D1 /* Assets.xcassets in Resources */,
 				E27022402871BC3E00CA42D1 /* CardListCell.xib in Resources */,
 				E270222B2871B9C800CA42D1 /* Main.storyboard in Resources */,
+				E262BE832871D1C200F437C8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E270223C2871BAEB00CA42D1 /* CreditCard.swift in Sources */,
+				E27022452871C2CD00CA42D1 /* CardDetailViewController.swift in Sources */,
 				E270223F2871BC3E00CA42D1 /* CardListCell.swift in Sources */,
 				E27022382871B9E700CA42D1 /* CardListViewController.swift in Sources */,
+				E262BE902871DAB000F437C8 /* CreditCardDummy.swift in Sources */,
 				E27022242871B9C800CA42D1 /* AppDelegate.swift in Sources */,
 				E27022262871B9C800CA42D1 /* SceneDelegate.swift in Sources */,
 			);
@@ -232,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -286,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -374,6 +421,89 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		E262BE842871D97800F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		E27022412871C1B400CA42D1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		E27022462871C55D00CA42D1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E262BE7E2871CCFA00F437C8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E262BE802871CCFA00F437C8 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		E262BE852871D97800F437C8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E262BE872871D97800F437C8 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		E262BE892871D97800F437C8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E262BE8B2871D97800F437C8 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		E262BE8D2871D97800F437C8 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E262BE7D2871CCFA00F437C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		E27022422871C1B400CA42D1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E27022412871C1B400CA42D1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		E27022472871C55D00CA42D1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E27022462871C55D00CA42D1 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E27022182871B9C800CA42D1 /* Project object */;
 }

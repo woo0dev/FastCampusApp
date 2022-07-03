@@ -75,8 +75,8 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="cardImageView" destination="Ve6-GK-TBb" id="0hh-66-sht"/>
                 <outlet property="cardNameLabel" destination="3Yi-Dt-EhI" id="rfV-Eo-MMD"/>
-                <outlet property="creditCardImageView" destination="Ve6-GK-TBb" id="0FX-yD-WuY"/>
                 <outlet property="promotionLabel" destination="3vN-vy-Xmn" id="wu4-3o-JRI"/>
                 <outlet property="rankLabel" destination="GvC-rN-mTC" id="3Fp-0D-ZLO"/>
             </connections>
