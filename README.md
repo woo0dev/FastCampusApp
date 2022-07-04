@@ -17,3 +17,5 @@ GitHub 클론 앱
 맥주 소개 API를 불러오는 앱
 8. CreditCardList  
 신용카드 추천 앱
+9. Notice  
+원격 공지 팝업, A/B테스트 앱
