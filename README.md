@@ -34,3 +34,6 @@ FastCampus 강의를 들으면서 만든 앱들을 관리하는 Repository
 ### 11. LEDBoard
 소개: 색상을 선택해 TextLabel 색상 바꾸기  
 배운 것: View 전환
+### 12. To do List
+소개: 하루에 할 일을 관리하는 앱  
+배운 것: UITableView, UserDefaults
