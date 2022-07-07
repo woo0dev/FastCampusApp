@@ -32,5 +32,5 @@ FastCampus 강의를 들으면서 만든 앱들을 관리하는 Repository
 소개: 물 마시기 알람 앱 (UIKit)  
 배운 것: LocalNotification
 ### 11. LEDBoard
-소개: 색상을 선택해 TextLabel 색상 바꾸기
+소개: 색상을 선택해 TextLabel 색상 바꾸기  
 배운 것: View 전환
