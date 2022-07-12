@@ -66,7 +66,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="J8F-xs-CyJ">
-                        <barButtonItem key="leftBarButtonItem" title="Edit" id="osv-yS-g3N">
+                        <barButtonItem key="leftBarButtonItem" image="pencil.and.outline" catalog="system" id="osv-yS-g3N">
                             <connections>
                                 <action selector="editButtonTapped:" destination="BYZ-38-t0r" id="IVr-Zn-uAR"/>
                             </connections>
@@ -88,6 +88,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
