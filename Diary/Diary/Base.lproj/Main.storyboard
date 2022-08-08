@@ -282,8 +282,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="일기 작성" id="jt9-1z-zbn">
-                        <barButtonItem key="rightBarButtonItem" title="등록" id="vYO-yC-gLy"/>
+                        <barButtonItem key="rightBarButtonItem" title="등록" id="vYO-yC-gLy">
+                            <connections>
+                                <action selector="confirmButtonTapped:" destination="63e-WN-jQI" id="knG-kx-pZQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="confirmButton" destination="vYO-yC-gLy" id="QHy-pr-ate"/>
+                        <outlet property="contentsTextView" destination="YQM-8r-dse" id="t52-3s-Xez"/>
+                        <outlet property="dateTextField" destination="MYu-uf-dZJ" id="BJD-96-ngE"/>
+                        <outlet property="titleTextField" destination="iUX-hU-isf" id="JhD-00-D6o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ltb-vc-fvq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -292,7 +302,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -339,6 +348,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="180" height="200"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="z02-Ts-k3I" id="08d-x8-Viq"/>
+                                            <outlet property="titleLabel" destination="18l-De-JN7" id="ctY-gy-9lS"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -359,7 +372,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="8zU-OW-4OT" id="JCB-t5-a98"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="714" y="823"/>
         </scene>
