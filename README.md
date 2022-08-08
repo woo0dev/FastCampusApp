@@ -1,5 +1,5 @@
 # FastCampusApp
-FastCampus 강의를 들으면서 만든 앱들을 관리하는 Repository
+FastCampus 강의를 들으면서 만든 Clone 앱들을 관리하는 Repository
 
 ### 1. AuotesGenerator  
 소개: 명언 생성기 앱 (UIKit)  
