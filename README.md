@@ -18,7 +18,7 @@ FastCampus 강의를 들으면서 만든 Clone 앱들을 관리하는 Repository
 배운 것: UICollectionView, UITabBarController
 ### 6. GoodByeCovid19
 소개: 코로나 현황 앱  
-배운 것: Alamofire
+배운 것: Alamofire, Charts
 ### 7. SpotifyLoginSampleApp  
 소개: 로그인 앱 (UIKit)  
 배운 것: Firebase Auth, Google Login, Apple Login
