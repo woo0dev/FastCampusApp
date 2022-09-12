@@ -20,11 +20,34 @@ class ViewController: UIViewController {
 			guard let self = self else { return }
 			switch result {
 			case let .success(result):
-				debugPrint("success \(result)")
+				self.configureStackView(koreaCovidOverview: result.korea)
+				let covidOverviewList = self.makeCovidOverviewList(cityCovidOverview: result)
+				self.configureChartView(covidOverviewList: covidOverviewList)
 			case let .failure(error):
 				debugPrint("error \(error)")
 			}
 		})
+	}
+	
+	func configureChartView(covidOverviewList: [CovidOverview]) {
+		let entries = covidOverviewList.compactMap { [weak self] overview -> PieChartDataEntry? in
+			guard let self = self else { return nil }
+			return PieChartDataEntry(value: removeFormatString(string: overview.newCase), label: overview.countryName, data: overview)
+		}
+		let dataSet = PieChartDataSet(entries: entries, label: "코로나 발생 현황")
+		dataSet.sliceSpace = 1
+		dataSet.entryLabelColor = .white
+		dataSet.xValuePosition = .outsideSlice
+		dataSet.valueLinePart1OffsetPercentage = 0.8
+		dataSet.valueLinePart1Length = 0.2
+		dataSet.valueLinePart2Length = 0.3
+		dataSet.colors = ChartColorTemplates.vordiplom() + ChartColorTemplates.joyful() + ChartColorTemplates.liberty() + ChartColorTemplates.pastel() + ChartColorTemplates.material()
+		pieChartView.data = PieChartData(dataSet: dataSet)
+	}
+	
+	func configureStackView(koreaCovidOverview: CovidOverview) {
+		self.totalCaseLabel.text = "\(koreaCovidOverview.totalCase)먕"
+		self.newCaseLabel.text = "\(koreaCovidOverview.newCase)명"
 	}
 
 	func fetchCovidOverview(completionHandler: @escaping (Result<CityCovidOverview, Error>) -> Void) {
@@ -49,6 +72,30 @@ class ViewController: UIViewController {
 				}
 			})
 	}
+	
+	func makeCovidOverviewList(cityCovidOverview: CityCovidOverview) -> [CovidOverview] {
+		return [
+			cityCovidOverview.seoul,
+			cityCovidOverview.busan,
+			cityCovidOverview.daegu,
+			cityCovidOverview.incheon,
+			cityCovidOverview.gwangju,
+			cityCovidOverview.daejeon,
+			cityCovidOverview.ulsan,
+			cityCovidOverview.sejong,
+			cityCovidOverview.gyeonggi,
+			cityCovidOverview.chungbuk,
+			cityCovidOverview.chungnam,
+			cityCovidOverview.gyeongbuk,
+			cityCovidOverview.gyeongnam,
+			cityCovidOverview.jeju
+		]
+	}
 
+	func removeFormatString(string: String) -> Double {
+		let formatter = NumberFormatter()
+		formatter.numberStyle = .decimal
+		return formatter.number(from: string)?.doubleValue ?? 0
+	}
 }
 
