@@ -21,7 +21,10 @@ final class TodayViewController: UIViewController {
         
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints {
-            $0.edges.equalToSuperview()
+			$0.top.equalTo(view.safeAreaLayoutGuide)
+			$0.bottom.equalTo(view.safeAreaLayoutGuide)
+			$0.leading.equalTo(view.safeAreaLayoutGuide)
+			$0.trailing.equalTo(view.safeAreaLayoutGuide)
         }
     }
 }

@@ -79,7 +79,7 @@ class RepositoryListViewController: UITableViewController {
             }
             .subscribe(onNext: { [weak self] newRepositories in
                 self?.repositories.onNext(newRepositories)
-                
+				
                 DispatchQueue.main.async {
                     self?.tableView.reloadData()
                     self?.refreshControl?.endRefreshing()
