@@ -16,6 +16,7 @@ struct MainViewModel {
 	let searchBarViewModel = SearchBarViewModel()
 	
 	let alertActionTapped = PublishRelay<MainViewController.AlertAction>()
+	let shouldPresentAlert: Signal<MainViewController.Alert>
 	
 	init() {
 		let blogResult = searchBarViewModel.shouldLoadResult
